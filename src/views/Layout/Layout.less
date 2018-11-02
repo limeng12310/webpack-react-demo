@@ -1,0 +1,29 @@
+.layout-wrapper {
+  width: 100%;
+  height: 100%;
+
+  .layout-left {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: #001529;
+  
+    .logo-brand {
+      height: 64px;
+      line-height: 64px;
+      text-align: center;
+      background-color: #002140;
+      color: #ffffff;
+      font-size: 18px;
+    }
+  }
+  
+  .layout-right {
+    padding: 0;
+    margin: 0;
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    min-height: 100vh; // vh视窗高度百分比，vw视窗宽度百分比
+    background-color: #f0f2f5;
+  }
+}
